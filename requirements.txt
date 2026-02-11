@@ -1,0 +1,14 @@
+# 核心依赖 (AutoDL 镜像自带 Torch，这里注释掉以免覆盖)
+# torch>=2.3.1
+# torchvision>=0.18.0
+
+# 工具库
+opencv-python
+numpy
+tqdm
+matplotlib
+pyyaml
+requests
+
+# SAM 2 请在终端单独安装:
+# pip install git+https://github.com/facebookresearch/sam2.git
